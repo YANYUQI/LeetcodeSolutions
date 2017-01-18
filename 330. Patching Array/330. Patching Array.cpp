@@ -1,9 +1,9 @@
-class Solution {
-	/*¼ÙÉèÊý×éµ±Ç°¿ÉÒÔ±íÊ¾µÄ·¶Î§Îª[1, total)ÄÚµÄËùÓÐÊý×Ö£¬
-	ÄÇÃ´ÏòÊý×éÖÐÌí¼ÓÔªËØadd¿ÉÒÔ½«±íÊ¾·¶Î§À©³äÖÁ[1, total + add)£¬
-	ÆäÖÐadd¡Ütotal¡£µ±ÇÒ½öµ±add=totalÊ±È¡µ½·¶Î§ÉÏÏÞ[1, 2 * total)¡£
-	µ±Êý×éÖÐÓÐÐ¡ÓÚµÈÓÚaddµÄÔªËØÊ±£¬ÔòÀûÓÃÊý×éÖÐµÄÔªËØ¡£
-	ÈôÃ»ÓÐ£¬ÔòÌí¼ÓÐÂÔªËØadd¡£*/
+ï»¿class Solution {
+	/*å‡è®¾æ•°ç»„å½“å‰å¯ä»¥è¡¨ç¤ºçš„èŒƒå›´ä¸º[1, total)å†…çš„æ‰€æœ‰æ•°å­—ï¼Œ
+	é‚£ä¹ˆå‘æ•°ç»„ä¸­æ·»åŠ å…ƒç´ addå¯ä»¥å°†è¡¨ç¤ºèŒƒå›´æ‰©å……è‡³[1, total + add)ï¼Œ
+	å…¶ä¸­addâ‰¤totalã€‚å½“ä¸”ä»…å½“add=totalæ—¶å–åˆ°èŒƒå›´ä¸Šé™[1, 2 * total)ã€‚
+	å½“æ•°ç»„ä¸­æœ‰å°äºŽç­‰äºŽaddçš„å…ƒç´ æ—¶ï¼Œåˆ™åˆ©ç”¨æ•°ç»„ä¸­çš„å…ƒç´ ã€‚
+	è‹¥æ²¡æœ‰ï¼Œåˆ™æ·»åŠ æ–°å…ƒç´ addã€‚*/
 public:
 	int minPatches(vector<int>& nums, int n) {
 		long total = 1;
